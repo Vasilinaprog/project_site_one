@@ -19,9 +19,9 @@ body
 #header
 {
 	margin:          0 auto;
-	width:           800px;
-	height:          96px;
-	background:      transparent url('header.jpg') top left no-repeat; width: 800; height: auto;
+	width:           800px auto;
+	background:      transparent url('Unknown.jpg') top left no-repeat; 
+   height: auto;
 }
 
 .headtitle
@@ -30,7 +30,7 @@ body
 	font-family:     'lucida grande', arial, tahoma, sans-serif;
 	font-size:       30px;
 	color:           #FFF;
-	top:             8px;
+	top:             5 auto;
 	left:            12px;
 }
 
@@ -84,10 +84,10 @@ body
 
 #content
 {
-	min-height:      auto;
 	width:           800px;
+	height: 		 auto;
 	margin:          0 auto;
-	background:      transparent url('contentbg.png') top left repeat-y;
+	background:      #EEEEEE
 }
 
 #insidecontent
@@ -100,7 +100,7 @@ body
 #insidecontent p
 {
 	margin:          0;
-	color:           #767676;
+	color:           #442467;
 	font-family:     'lucida grande', 'franklin gothic medium', sans-serif;
 	font-size:       1.2em;
 	line-height:     170%;
@@ -111,7 +111,7 @@ body
 	padding:         0 10px 10px 10px;
 	float:           right;
 	width:           210px;
-	background:      #f6f6f6;
+	background:      #f6f;
 }
 
 #sidebar p
@@ -190,7 +190,7 @@ h3
 
 body, html {
     background-color: #000;
-    color: #fff;
+    color: #000;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -201,4 +201,14 @@ canvas {
     position:absolute;
     top:0;
     left:0
+}
+
+#is_active {
+	color:           #FDFDFD;	
+	font-size:       1em;
+	padding:         13px 7px 15px 7px;
+	background:      transparent url('menuon.png') center left repeat-x;
+	font-family:     'lucida grande', arial, sans-serif;
+	font-weight:     bold;
+	text-decoration: none;
 }
